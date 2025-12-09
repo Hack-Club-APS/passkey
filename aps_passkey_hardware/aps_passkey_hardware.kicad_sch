@@ -4753,7 +4753,7 @@
 			)
 		)
 	)
-	(global_label "DM"
+	(global_label "D-"
 		(shape input)
 		(at 233.68 53.34 0)
 		(fields_autoplaced yes)
@@ -4765,7 +4765,7 @@
 		)
 		(uuid "9d43c890-020f-4c23-9626-8aed3a0ed7d7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 239.3866 53.34 0)
+			(at 239.5076 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4819,7 +4819,7 @@
 			)
 		)
 	)
-	(global_label "DP"
+	(global_label "D+"
 		(shape input)
 		(at 233.68 50.8 0)
 		(fields_autoplaced yes)
@@ -4831,7 +4831,7 @@
 		)
 		(uuid "be440bac-3db7-4084-b48c-24713c71a5b4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 239.2052 50.8 0)
+			(at 239.5076 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4885,7 +4885,7 @@
 			)
 		)
 	)
-	(global_label "DP"
+	(global_label "D+"
 		(shape input)
 		(at 33.02 41.91 0)
 		(fields_autoplaced yes)
@@ -4897,7 +4897,7 @@
 		)
 		(uuid "cb018505-5087-4e3c-a504-d6903d1eb381")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 38.5452 41.91 0)
+			(at 38.8476 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5017,7 +5017,7 @@
 			)
 		)
 	)
-	(global_label "DM"
+	(global_label "D-"
 		(shape input)
 		(at 33.02 44.45 0)
 		(fields_autoplaced yes)
@@ -5029,7 +5029,7 @@
 		)
 		(uuid "f8979648-2053-4e1f-b506-1e5d26c0a286")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 38.7266 44.45 0)
+			(at 38.8476 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5038,6 +5038,28 @@
 				(hide yes)
 			)
 		)
+	)
+	(hierarchical_label "TR+"
+		(shape input)
+		(at 223.52 50.8 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "21ef5b72-905f-471c-9785-a612ee20ecc4")
+	)
+	(hierarchical_label "TR-"
+		(shape input)
+		(at 223.52 53.34 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ab582e7c-91bb-4b46-ada2-aa7f70c403e8")
 	)
 	(symbol
 		(lib_id "easyeda2kicad:AOTA-B201610S3R3-101-T")
@@ -7598,7 +7620,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "RP2354A-QFN60"
+		(property "Value" "RP2350A-QFN60"
 			(at 195.1833 148.59 0)
 			(effects
 				(font
